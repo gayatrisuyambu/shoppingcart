@@ -1,0 +1,51 @@
+{
+  "clients": {
+    "alice": {
+      "items": [
+        "Apple",
+        "Melon",
+        "Melon"
+      ],
+      "itemQty": {
+        "Apple": 1,
+        "Melon": 2
+      },
+      "totalPerItem": {
+        "Apple": 35,
+        "Melon": 50
+      },
+      "totalPrice": 85
+    },
+    "bob": {
+      "items": [
+        "Lime",
+        "Lime",
+        "Lime"
+      ],
+      "itemQty": {
+        "Lime": 3
+      },
+      "totalPerItem": {
+        "Lime": 30
+      },
+      "totalPrice": 30
+    },
+    "carol": {
+      "items": [
+        "Banana",
+        "Dragonfruit"
+      ],
+      "itemQty": {
+        "Banana": 1
+      },
+      "totalPerItem": {
+        "Banana": 20
+      },
+      "totalPrice": 20
+    }
+  },
+  "totals": {
+    "grandPence": 135,
+    "grandGBP": "1.35"
+  }
+}
